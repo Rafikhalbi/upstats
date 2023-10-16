@@ -18,7 +18,7 @@ import shutil
 from werkzeug.utils import secure_filename
 
 web = Flask(__name__)
-web.config["SESSION_TYPE"] = "filesystem"
+web.config["SECRET_KEY"] = "heckerpro"
 Session(web)
 
 
