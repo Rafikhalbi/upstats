@@ -1,6 +1,4 @@
 flask
 flask_session
-base64
 bcrypt
-sqlite3
 cryptography
