@@ -15,10 +15,11 @@ import random
 import string
 import os
 import shutil
+import secrets
 from werkzeug.utils import secure_filename
 
 web = Flask(__name__)
-web.config["SECRET_KEY"] = "heckerpro"
+web.config["SESSION_TYPE"] = "filesystem"
 Session(web)
 
 
